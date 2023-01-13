@@ -6,5 +6,3 @@ https://www.htmhell.dev/adventcalendar/2022/1/
 
 Built to get back into HTML again as was a bit rusty.
 Yeah it's a bit weird lookin.
-
-Gen
