@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Weekly Prophet – Magical News from the Wizarding World</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" href="/favicon-32x32.png" />
+    <meta name="theme-color" content="#FF00FF" />
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        The Weekly Prophet
+        <span>Magical News from the Wizarding World</span>
+      </h1>
+
+      <time datetime="2022-09-01">Thu, September 1st 2022</time>
+
+      <form action="/search" role="search">
+        <label for="search-input">Search articles</label>
+        <input type="search" id="search-input" placeholder="Search…" name="q" />
+        <input type="submit" value="Submit search" />
+      </form>
+    </header>
+
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="/news">News</a></li>
+        <li><a href="/ministry-magic">Ministry of Magic</a></li>
+        <li><a href="/gringotts">Gringotts</a></li>
+        <li><a href="/hogwarts">Hogwarts</a></li>
+        <li><a href="/quidditch">Quidditch</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Top Stories</h2>
+
+        <article>
+          <header>
+            <h3>Students returning to hogwarts</h3>
+            <img
+              src="/path/to/image.jpg"
+              alt="A descriptive alternative text for the image" />
+          </header>
+          <p>
+            The day 73 kids waited the whole summer long is finally here: there
+            first day at Hogwarts. The Sorting Hat is awaiting them in the
+            castle already. . . .
+          </p>
+          <footer>
+            <span>Rita Skeeter</span>
+            <time datetime="2022-09-01">01/09/2022</time>
+          </footer>
+        </article>
+      </section>
+
+      <section>
+        <h2>Latest News</h2>
+        <a href="/latest-news">View all articles</a>
+      </section>
+
+      <section>
+        <h2>Most Viewed</h2>
+        <ol>
+          <li>
+            <article>Harry does it again</article>
+          </li>
+          <li>
+            <article>Scary stuff</article>
+          </li>
+          <!-- and so on… -->
+        </ol>
+      </section>
+
+      <section>
+        <h2>What's Going on in Hogwarts?</h2>
+        <a href="/hogwarts">Read more hogwarts news</a>
+      </section>
+    </main>
+
+    <aside>
+      <h2>Subscribe to our Owl Newsletter</h2>
+      <form action="/subscribe" method="post">
+        <label for="name-input">Name</label>
+        <input name="name" id="name-input" />
+        <br />
+        <label for="address-input">Address</label>
+        <input name="address" id="address-input" />
+
+        <input type="submit" value="Subscribe" />
+      </form>
+    </aside>
+
+    <footer>
+      <div>
+        <h2 id="footer-categories">Top Categories</h2>
+        <nav aria-labelledby="footer-categories">
+          <a href="#">Fun and games</a>
+          <a href="#">Magic facts</a>
+        </nav>
+      </div>
+      <div>
+        <h2 id="footer-company">The Company</h2>
+        <nav aria-labelledby="footer-company">
+          <a href="#">About us</a>
+          <a href="#">Our witches</a>
+          <a href="#">Our wizards</a>
+        </nav>
+      </div>
+      <div>
+        <h2 id="footer-spells">Spells and Charms</h2>
+        <nav aria-labelledby="footer-spells">
+          <a href="#">Potions</a>
+          <a href="#">Cauldrons</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
